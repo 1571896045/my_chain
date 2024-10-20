@@ -14,8 +14,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/client/pruning"
 	"github.com/cosmos/cosmos-sdk/client/rpc"
 	"github.com/cosmos/cosmos-sdk/client/snapshot"
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
+//	"github.com/cosmos/cosmos-sdk/codec"
+//	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	"github.com/cosmos/cosmos-sdk/server"
 	servertypes "github.com/cosmos/cosmos-sdk/server/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
@@ -27,6 +27,11 @@ import (
 
 	"github.com/1571896045/my_chain/app"
 )
+
+//var (
+//    myCodec *codec.ProtoCodec // codec 实例
+//    myCodecTypes *InterfaceRegistry // codec types 实例
+//)
 
 func initRootCmd(
 	rootCmd *cobra.Command,
